@@ -1,0 +1,65 @@
+@media only screen and (min-width: 1px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 64px !important;
+  }
+}
+
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  padding: 0 10px !important
+}
+
+#window li {
+  -webkit-app-region: no-drag;
+}
+
+.win-drag {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+.row {
+  text-align: center
+}
+
+#nav-mobile {
+  padding: 0 5px
+}
+
+#nav-mobile li {
+  margin: 0 -14px
+}
+
+#frame-container {
+  position: fixed;
+  top: 115px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+}
+
+#frame {
+  width: 100%;
+  height: 100%;
+}
+
+.button_left {
+  position: absolute;
+  left: 10px;
+  top: 70px;
+}
+
+.search_right {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+}

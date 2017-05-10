@@ -1,0 +1,22 @@
+{
+  "name": "nwjs_hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "browser.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "window": {
+    "toolbar": false,
+    "frame": false,
+    "width": 1000,
+    "height": 700,
+    "min_width": 800,
+    "min_height": 500
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
